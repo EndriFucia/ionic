@@ -1,0 +1,143 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.file-container {
+    width: 60%;
+    margin: 5% 0;
+}
+
+video {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+}
+
+.video-widget{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.custom-widget {
+    width: 90%;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+}
+
+.controls {
+    display: flex;
+    width: 90%;
+    height: 25px;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.img-cts {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+
+.controls button {
+    width: 25px;
+    height: 100%;
+    margin-right: 2%;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.controls button:hover {
+    background-color: black;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+
+.duration {
+    width: 50%;
+    display: flex;
+    justify-content: right;;
+    align-items: center;
+    align-content: center;
+}
+
+.list {
+    width:90%;
+    margin: 20px 5%;
+    border-top: 1px solid gray;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.list-title {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+
+.song-item {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-top: 2px 0;
+}
+
+.list-controls {
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-item button {
+    width: 30%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-item label {
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+

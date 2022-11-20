@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Media Player</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Media Player</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="settings">
+    <div class="progressColor">
+      <label for="progressBarColor">Progressbar color : </label>
+      <input type="color" [(ngModel)]="this.settings.progressBarColor">
+    </div>
+
+    <div class="indicatorColor">
+      <label for="indicatorColor">Progress color indicator : </label>
+      <input type="color" [(ngModel)]="this.settings.progressIndicatorColor">
+    </div>
+
+    <!-- <div class="indicatorColor">
+      <label for="dir">Directory : </label>
+      <select class="form-select">
+        <option *ngFor="let dir of directories; let i = index" [value]="dir">{{dir}}</option>
+      </select>
+    </div> -->
+    
+    <div class="btnDiv">
+      <button (click)="saveSettings()">Save settings</button>
+    </div>
+  </div>
+
+  <div class="btnDiv">
+    <label>{{this.writeResult}}</label>
+  </div>
+</ion-content>
